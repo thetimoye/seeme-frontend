@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import "../styles/main.scss"
+
 
 class IndexPage extends Component{
     state = {
@@ -8,7 +10,7 @@ class IndexPage extends Component{
     render() {
         return (
             <div>
-                <p>Say hi to the index page</p>
+                <p className="example">Say hi to the index page</p>
             </div>
         )
     }
